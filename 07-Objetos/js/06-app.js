@@ -15,13 +15,10 @@ const producto = {
 
 
 
-const medidas = producto.informacion.medidas;
+const {nombre,informacion,informacion:{fabricacion,fabricacion:{pais}}} = producto;
 
-
-console.log(producto);
-console.log(producto.informacion);
-console.log(producto.informacion.medidas);
-console.log(producto.informacion.medidas.peso);
-console.log(producto.informacion.medidas.medida);
-console.log(producto.informacion.fabricacion);
-console.log(producto.informacion.fabricacion.pais);
+console.log(nombre);
+console.log(informacion);
+console.log(fabricacion);
+console.log(pais);
+    
