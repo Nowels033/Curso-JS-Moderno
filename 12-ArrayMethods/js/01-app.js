@@ -99,3 +99,10 @@ console.log(resultado7);
 console.log(resultado8);
 
 
+// cat
+
+const mesesArrglo = meses.concat("ARRAYS A CONCTENAR");
+
+//spread operator
+//UNIR ARRAYS
+const resultado9 = [...meses,...meses2,...meses3,"otroMes"];
