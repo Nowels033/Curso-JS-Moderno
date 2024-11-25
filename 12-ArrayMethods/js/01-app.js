@@ -7,4 +7,17 @@ const carrito = [
     { nombre: 'Audifonos', precio: 300 },
     { nombre: 'Teclado', precio: 400 },
     { nombre: 'Celular', precio: 700 },
-]
+];
+
+console.log(meses);
+console.log(carrito);
+
+
+// comprobar si esxiste un valor en una array
+
+
+
+console.log(meses.includes('Enero'));
+
+//para obejtos
+console.log(carrito.some(producto => producto.nombre === 'Celular'));
